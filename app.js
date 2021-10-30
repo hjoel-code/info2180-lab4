@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
         $.ajax('superheroes.php').done( result => {
             alert(result);
         }).fail( result => {
-            alert(result);
+            alert("Error loading data");
         });
     })
 });

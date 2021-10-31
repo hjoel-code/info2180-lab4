@@ -9,11 +9,28 @@
     <script defer src="app.js"></script>
 </head>
 <body>
-    <div class="header-container">
+    <header>
         <h1>Avengers Character Search</h1>
-    </div>
+    </header>
 
-    <button id="search-btn">Search</button>
+    <main>
+        <label>Search by Full Name or Alias </label> 
+        <form id="search-superhero" class="search-group">
+            <input id="search" name="search" type="text" placeholder="e.g. Captain America or Steve Rogers">
+            <button type="submit">Search</button>
+        </form>
+        <div class="message"></div>
+    
+    
+        <div class="result-container">
+            <h2>Result</h2>
+            <hr>
+            <div id="result">
+    
+            </div>
+        </div>
+    </main>
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

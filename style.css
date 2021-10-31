@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+}
+
+header {
+    padding: 20px 30px;
+    background: rgb(65, 109, 160);
+}
+
+header h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+label {
+    margin: 5px 20px;
+}
+
+.search-group {
+    display: grid;
+    grid-template-columns: 85% 10%;
+    justify-content: center;
+}
+
+.search-group input {
+    background: white;
+    color: black;
+    padding: 10px;
+    border: stroke 1px rgb(184, 184, 184);
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+.search-group button {
+    background: rgb(177, 38, 38);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 0 2px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+main {
+    padding: 60px 10vw;
+}
+
+.result-container {
+    margin: 65px;
+}
+
+.result-container h2 {
+    text-transform: uppercase;
+}
+
+.not-found {
+    color: red;
+    text-transform: uppercase;
+}
+
+#result h3, #result h4 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+#result p {
+    margin: 15px 0;
+}
+
+.message {
+    color: red;
+    margin: 5px 20px ;
+}
